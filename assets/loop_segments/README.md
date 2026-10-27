@@ -1,4 +1,4 @@
-# Crest loop segments (from crest3 compositor, 720x720, 30fps, H.264 + 15fps GIF)
+# Crest loop segments (from crest4 compositor (_crest_loop_v4.py: hard disc punch, single globe, feathers FROZEN; 01/02 are now calm Earth-only beats), 720x720, 30fps, H.264 + 15fps GIF)
 
 | File | Duration | Beat |
 |---|---|---|
