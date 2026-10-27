@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Request Paid Advisory — HighIqCrackpots</title><meta name="description" content="Premium advisory guides for high-end thinkers. Clients pay for unconventional minds to think with them — not for board-seat marketplace access."><link rel="stylesheet" href="css/site.css"></head><body><a class="skip" href="#main" style="position:absolute;left:-999px">Skip to content</a><nav><div class="wrap"><a class="logo" href="index.html"><img src="assets/high-iq-hero-monogram.jpg" alt="">HighIqCrackpots</a><ul><li><a href="offers.html">Offers</a></li><li><a href="book.html">Request advisory</a></li><li><a href="fee-waiver.html">Fee waiver</a></li></ul></div></nav><main id="main">
+<div class="wrap"><div class="hero"><h1>Request paid advisory</h1><p class="sub">Choose one offer. Rates are by arrangement — no prices are published.</p></div>
+<div class="note"><strong>How payment works:</strong> submit your request, we review fit, and if accepted we scope the engagement and agree a rate. After acceptance you’ll receive a secure GoDaddy / invoice payment link. Nothing is charged by this form.</div>
+<!-- PAY LINKS: paste GoDaddy Pay Link URLs below after creating them; leave blank to hide. -->
+<div id="paylinks" class="noprint" hidden><h2>Accepted clients — pay here</h2><p id="paylist"></p></div>
+<section><form id="f" novalidate>
+<fieldset><legend>Offer (choose one) *</legend>
+<label class="check"><input type="radio" name="offer" value="Session" required> Session — one problem, dense output</label>
+<label class="check"><input type="radio" name="offer" value="Advisory Board Seat"> Advisory Board Seat — retained, non-fiduciary cadence</label>
+<label class="check"><input type="radio" name="offer" value="Think-Tank Program"> Think-Tank Program — multi-session arc with written deliverables</label></fieldset>
+<div><label for="name">Name *</label><input id="name" name="name" required autocomplete="name"></div>
+<div><label for="org">Organization</label><input id="org" name="org" autocomplete="organization"></div>
+<div><label for="email">Email *</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+<div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+<div><label for="problem">Problem summary *</label><textarea id="problem" name="problem" required></textarea></div>
+<div><label for="cadence">Preferred cadence</label><select id="cadence" name="cadence"><option>Single session</option><option>Monthly</option><option>Quarterly</option><option>Program (scoped arc)</option><option>Not sure yet</option></select></div>
+<div><label for="budget">Budget band</label><select id="budget" name="budget"><option>Prefer not to say</option><option>Under arrangement discussion</option><option>Ready for invoice</option></select></div>
+<p id="err" role="alert" style="color:#f88"></p>
+<div><button class="btn primary" type="submit">Send request</button> <a class="btn" id="fallback" href="mailto:info@HighIqCrackpots.com?subject=HighIqCrackpots%20%E2%80%94%20Paid%20Advisory%20Request">Email this request</a></div>
+<p class="small">Submitting opens your email app with the request prefilled to info@HighIqCrackpots.com. Send it from there.</p>
+</form></section></div>
+<script>
+var PAY_LINKS={"Session":"","Advisory Board Seat":"","Think-Tank Program":""};
+</script><script src="js/forms.js"></script><script>
+initForm({id:"f",subject:"HighIqCrackpots — Paid Advisory Request",multi:false,fields:[["Offer","offer"],["Name","name"],["Organization","org"],["Email","email"],["Phone","phone"],["Problem summary","problem"],["Preferred cadence","cadence"],["Budget band","budget"]],required:["offer","name","email","problem"]});
+var h="";for(var k in PAY_LINKS)if(PAY_LINKS[k])h+='<a class="btn" href="'+PAY_LINKS[k]+'">'+k+'</a>';if(h){paylist.innerHTML=h;paylinks.hidden=false}
+</script>
+</main><footer><div class="wrap">HighIqCrackpots.com — We don’t sell seats. We sell thinking.<br>Separate from CornyCoded and Oblivion Mark. © Unified Field Systems LLC / SEXA advisory stack — entity line for contracts pending lock.<br>Contact: <a href="mailto:info@HighIqCrackpots.com">info@HighIqCrackpots.com</a></div></footer></body></html>
