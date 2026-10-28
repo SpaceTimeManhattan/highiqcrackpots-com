@@ -49,7 +49,7 @@ textarea{min-height:140px}fieldset{border:1px solid var(--line2);border-radius:1
 .check{display:flex;gap:10px;align-items:flex-start;font-weight:400;margin:6px 0}.check input{width:auto;margin-top:6px}
 .small{font-size:14px;color:var(--mut)}
 footer{border-top:1px solid var(--line);padding:56px 0;color:var(--mut);font-size:14px;text-align:center}
-footer .fl{font:400 1.3rem var(--serif);color:var(--txt);margin-bottom:10px}
+footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;letter-spacing:.02em}
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .skip{position:absolute;left:-999px}
 @media(max-width:760px){.split{grid-template-columns:1fr}section{padding:64px 0}.hero{padding:56px 0 70px}nav ul{gap:14px}nav ul a{font-size:13px}.panel{padding:28px}.btn{width:100%;justify-content:center}.card .btn{width:auto}}
