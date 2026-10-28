@@ -20,4 +20,4 @@ Website Builder cannot host this package as files; custom HTML blocks render in 
 2. GoDaddy → Domain → DNS: add A records for `@` → 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153; add CNAME `www` → `<user>.github.io`. (An apex cannot be a CNAME at GoDaddy; use the A records for HighIqCrackpots.com.)
 3. In Pages settings set custom domain HighIqCrackpots.com and tick **Enforce HTTPS**.
 
-Forms use `mailto:guideme@highiqcrackpots.com` — no server needed.
+Forms use `mailto:Guide@HighIqCrackpots.com` — no server needed.
