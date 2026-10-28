@@ -1,10 +1,10 @@
-# HighIqCrackpots.com — GoDaddy deployment
+# HighIQcrackpots.com — GoDaddy deployment
 
 ## A. GoDaddy Web Hosting (cPanel) — recommended
 1. GoDaddy → My Products → Web Hosting → **Manage** → **cPanel Admin** → **File Manager**.
-2. Open `public_html` (the document root for HighIqCrackpots.com). Remove the default `index.html`/placeholder if present.
+2. Open `public_html` (the document root for HighIQcrackpots.com). Remove the default `index.html`/placeholder if present.
 3. Zip the *contents* of this `site/` folder (not the folder itself), click **Upload**, then right-click the zip → **Extract** into `public_html`.
-4. Confirm `public_html/index.html`, `css/`, `js/`, `assets/` exist. Visit https://HighIqCrackpots.com. Enable free SSL under cPanel → SSL/TLS Status if not active.
+4. Confirm `public_html/index.html`, `css/`, `js/`, `assets/` exist. Visit https://HighIQcrackpots.com. Enable free SSL under cPanel → SSL/TLS Status if not active.
 
 ## B. GoDaddy Website Builder (note)
 Website Builder cannot host this package as files; custom HTML blocks render in iframes and break forms/styling. This static package is preferred for full control. If Builder is already attached to the domain, either disconnect it or point the domain to Web Hosting.
@@ -16,8 +16,8 @@ Website Builder cannot host this package as files; custom HTML blocks render in 
 3. Non-empty links appear in an "Accepted clients — pay here" block. Usually better: send per-client links by email after acceptance and leave these blank.
 
 ## D. Alternate: GitHub Pages + GoDaddy DNS
-1. Push `site/` contents to a repo (root contains `CNAME` = `HighIqCrackpots.com` and `.nojekyll`). Settings → Pages → deploy from branch `main` / root.
-2. GoDaddy → Domain → DNS: add A records for `@` → 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153; add CNAME `www` → `<user>.github.io`. (An apex cannot be a CNAME at GoDaddy; use the A records for HighIqCrackpots.com.)
-3. In Pages settings set custom domain HighIqCrackpots.com and tick **Enforce HTTPS**.
+1. Push `site/` contents to a repo (root contains `CNAME` = `HighIQcrackpots.com` and `.nojekyll`). Settings → Pages → deploy from branch `main` / root.
+2. GoDaddy → Domain → DNS: add A records for `@` → 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153; add CNAME `www` → `<user>.github.io`. (An apex cannot be a CNAME at GoDaddy; use the A records for HighIQcrackpots.com.)
+3. In Pages settings set custom domain HighIQcrackpots.com and tick **Enforce HTTPS**.
 
-Forms use `mailto:Guide@HighIqCrackpots.com` — no server needed.
+Forms use `mailto:Guide@HighIQcrackpots.com` — no server needed.
