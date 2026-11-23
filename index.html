@@ -424,6 +424,24 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 }
 #corpus a.cta.alt:hover{background:var(--corpus-gold);color:var(--corpus-bg)}
 #corpus .cta{margin-top:8px}
+#corpus .set-hero{margin:0 0 18px}
+#corpus .set-hero img{width:100%;height:auto;display:block;border:1px solid var(--corpus-gold);background:#1a120c;box-shadow:0 10px 28px rgba(0,0,0,.35);aspect-ratio:auto;object-fit:contain}
+#corpus .set-hero-slot{
+  width:100%;
+  min-height:220px;
+  aspect-ratio:16/9;
+  border:1px dashed var(--corpus-gold);
+  background:var(--corpus-card);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--corpus-muted);
+  font:600 13px/1.45 var(--corpus-sans);
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  text-align:center;
+  padding:24px 16px;
+}
 @media (min-width:820px){#corpus .corpus-col{padding:0}}
 </style>
 <div class="corpus-col">
@@ -437,6 +455,9 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <a href="#corpus-papers">Each paper</a>
 <a href="#corpus-diss-books">Each dissertation volume</a>
 </nav>
+<figure class="set-hero" id="corpus-set-hero-papers">
+<div class="set-hero-slot" data-set-hero="A" role="img" aria-label="Placeholder for a portrait of the complete 50-paper set">Complete 50-paper set — portrait to come</div>
+</figure>
 <div class="sets" id="corpus-set-papers">
 <h3 class="group">The complete 50-paper set</h3>
 <p>52 volumes, 4,119 pages, 8.5 × 11 in. Boxed-set prices are 10% off the sum of the per-book list prices.</p>
@@ -455,6 +476,9 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <div class="row"><span>Full-color edition, sum</span><span class="lp">$2,075.48</span></div>
 <div class="soon">Print edition — coming soon</div></div>
 </div>
+<figure class="set-hero" id="corpus-set-hero-both">
+<div class="set-hero-slot" data-set-hero="B" role="img" aria-label="Placeholder for a portrait of the complete set with the dissertation">Complete set with the dissertation — portrait to come</div>
+</figure>
 <div class="sets" id="corpus-set-both">
 <h3 class="group">The complete set with the dissertation</h3>
 <p>68 volumes, 10,528 pages: the 52 paper volumes plus the 16 verified dissertation volumes (6,409 pages).</p>
