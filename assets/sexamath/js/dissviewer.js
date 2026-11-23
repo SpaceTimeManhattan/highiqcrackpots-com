@@ -1,12 +1,12 @@
 // SEXAMATH.si dissertation viewer: PDF.js lazy pages + live-synced table of contents.
-const PDF_URL = 'https://sexamath.si/assets/pdf/McClain_Dissertation_Books_I-XIV.pdf';
+const PDF_URL = 'https://cctsexa.com/';
 const GAP = 10;
 const box = document.getElementById('dpages'), msg = document.getElementById('dmsg');
 const tocs = document.getElementById('dtocs'), cur = document.getElementById('dcur'), tot = document.getElementById('dtot');
 const jump = document.getElementById('djump'), go = document.getElementById('dgo'), filt = document.getElementById('dfilter');
 const links = Array.from(tocs.querySelectorAll('a[data-p]')).map((a, i) => ({ a, p: +a.dataset.p, i }));
 const sorted = links.slice().sort((x, y) => x.p - y.p || x.i - y.i);
-let pdf = null, N = 6215, W = 0, H = 0, ratio = 1.414, pages = [], rendered = new Map(), active = null, lastPage = 0, ticking = false;
+let pdf = null, N = 6409, W = 0, H = 0, ratio = 1.414, pages = [], rendered = new Map(), active = null, lastPage = 0, ticking = false;
 
 function step() { return H + GAP; }
 function pageAt(y) { return Math.min(N, Math.max(1, Math.floor(y / step()) + 1)); }
@@ -92,7 +92,7 @@ function applyFilter() {
   }
 }
 
-const EXPECTED = 100064313;
+const EXPECTED = 0; // unused; archive now previews the verified 16-volume edition
 const ov = document.getElementById('dload'), pctEl = document.getElementById('dpct'), barEl = document.getElementById('dbar'),
   stEl = document.getElementById('dst'), etaEl = document.getElementById('deta');
 const MB = b => (b / 1048576).toFixed(1);
