@@ -509,10 +509,26 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 }
 @media (min-width:820px){#corpus .corpus-col{padding:0}}
 </style>
+<style id="cctsexa-fw-look">
+.enc{position:relative;margin:22px 0 26px;padding:22px 20px 20px;background:radial-gradient(120% 140% at 50% 0%,#1a2a5e 0%,#0b1430 55%,#070d22 100%);color:#f3ecdc;border:1px solid #d4a84a;box-shadow:0 18px 40px rgba(0,0,0,.35),inset 0 0 0 4px #0b1430,inset 0 0 0 5px rgba(217,189,126,.45);text-align:center;border-radius:4px}
+.enc .enc-k{margin:0 0 10px!important;font:700 12px/1.2 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#e2c588!important}
+.enc .enc-l{margin:0 auto!important;max-width:30em;font:italic 600 22px/1.42 Georgia,"Times New Roman",serif;color:#fbf3df!important;text-shadow:0 0 18px rgba(255,190,90,.25)}
+.enc .enc-r{display:block;width:84px;height:1px;margin:14px auto 0;background:linear-gradient(90deg,transparent,#e2c588,transparent)}
+.enc.compact{margin:6px 0 22px;padding:16px 16px 14px}.enc.compact .enc-l{font-size:18px}
+@media(max-width:600px){.enc .enc-l{font-size:18px}.enc.compact .enc-l{font-size:16px}}
+.fw-fig{margin:0 0 16px}.fw-fig img{display:block;width:100%;height:auto;border:1px solid #d4a84a;background:#05080f;box-shadow:0 14px 34px rgba(0,0,0,.4)}
+.fw-fig figcaption{font:italic 13px/1.4 Georgia,serif;color:#b8a77f;text-align:right;margin-top:6px}
+#corpus .cbook.fw figure{max-width:440px;margin:0 auto 18px}#corpus .cbook.fw .cover{border:1px solid #d4a84a;background:#05080f;aspect-ratio:900/1224}
+#corpus .cbook.fw .plist tr.pf th,#corpus .cbook.fw .plist tr.pf td{color:#f3d58a}
+#corpus .cbook.fw .acts{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}#corpus .cbook.fw .acts a{white-space:nowrap;text-align:center;font:700 14px system-ui,sans-serif;text-decoration:none;padding:11px 14px;border-radius:4px;border:1px solid #d4a84a}
+#corpus .cbook.fw .acts a.dl{background:linear-gradient(180deg,#e2c588,#b8924a);color:#0b1430}#corpus .cbook.fw .acts a.or{background:transparent;color:#d4a84a}
+@media(max-width:600px){#corpus .cbook.fw .acts a{flex:1 1 auto}}
+</style>
 <div class="corpus-col">
 <h2>The SEXA Corpus</h2>
 <p class="lead">The SEXA Corpus is issued as a set of books: each of the 30 papers is one book. W001 and W005 are each in two volumes, so the paper set is 32 volumes. The 14-book CCT/SEXA dissertation is bound as 16 volumes (Books IX and XIV in two parts each). Published by U.F.S. (Unified Field Systems LLC).</p>
-<p class="small">The figures below are suggested list prices for a forthcoming print edition, in US dollars, without shipping or tax. They are not an order form. A black-and-white printing would render the color seals and marks in gray; the full-color edition matches the files. Print edition — coming soon.</p>
+<aside class="enc compact" aria-label="Ninth-dimensional encryption"><p class="enc-k">Ninth-Dimensional Encryption</p><p class="enc-l">Every book, in every edition, is 9th-dimensionally encrypted and stored in the ninth dimension, forever, for each reader.</p><span class="enc-r" aria-hidden="true"></span></aside>
+<p class="small">The CCT/SEXA dissertation is available now in the First Wave Edition, printed to order, at the First Wave prices shown with it; every PDF is free to download. For the papers, the figures below are suggested list prices for a forthcoming print edition, in US dollars, without shipping or tax. They are not an order form. A black-and-white printing would render the color seals and marks in gray; the full-color edition matches the files. Print edition — coming soon.</p>
 <nav class="jump" aria-label="SEXA Corpus">
 <a href="#corpus-set-papers">30-paper set</a>
 <a href="#corpus-set-both">Set with the dissertation</a>
@@ -541,44 +557,25 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <div class="row"><span>Full-color edition, sum</span><span class="lp">$1,445.68</span></div>
 <div class="soon">Print edition — coming soon</div></div>
 </div>
-<figure class="set-hero" id="corpus-set-hero-both">
-<div class="set-hero-slot" data-set-hero="B" role="img" aria-label="Placeholder for a portrait of the complete set with the dissertation">Complete set with the dissertation — portrait to come</div>
-</figure>
+<figure class="set-hero fw-fig" id="corpus-set-hero-both"><picture><source type="image/webp" srcset="assets/cctsexa-fw/corpus_display-800.webp 800w, assets/cctsexa-fw/corpus_display-1600.webp 1600w, assets/cctsexa-fw/corpus_display-2400.webp 2400w" sizes="(min-width:820px) 820px, 100vw"><img src="assets/cctsexa-fw/corpus_display-1600.jpg" width="1600" height="729" style="aspect-ratio:1600/729" alt="The SEXA Corpus in a lit navy display case: the CERN-ban editions face-out with their BANNED BY CERN covers and glowing U.F.S. emblems, the sixteen dissertation volumes as gold-embossed collector’s hardcovers, and the other paper volumes spine-out" loading="lazy" decoding="async"></picture><figcaption>The SEXA Corpus, with the dissertation as gold-embossed collector’s hardcovers</figcaption></figure>
 <div class="sets" id="corpus-set-both">
 <h3 class="group">The complete set with the dissertation</h3>
 <p>48 volumes, 10,234 pages: the 32 paper volumes plus the 16 verified dissertation volumes (6,409 pages).</p>
-<div class="price"><h3>Papers and dissertation, softbound</h3>
-<p class="d">48 volumes, 10,234 pages, paperback</p>
-<div class="row"><span>Boxed set (10% off)</span><b>$1,178.99</b></div>
-<div class="row"><span>Sum of list prices</span><span class="lp">$1,309.52</span></div>
-<div class="row"><span>Full-color edition, boxed (10% off)</span><span class="lp">$1,579.99</span></div>
-<div class="row"><span>Full-color edition, sum</span><span class="lp">$1,754.52</span></div>
-<div class="soon">Print edition — coming soon</div></div>
-<div class="price"><h3>Papers and dissertation, hardbound</h3>
-<p class="d">48 volumes, 10,234 pages, case-laminate hardcover</p>
-<div class="row"><span>Boxed set (10% off)</span><b>$2,102.99</b></div>
-<div class="row"><span>Sum of list prices</span><span class="lp">$2,336.52</span></div>
-<div class="row"><span>Full-color edition, boxed (10% off)</span><span class="lp">$2,516.99</span></div>
-<div class="row"><span>Full-color edition, sum</span><span class="lp">$2,796.52</span></div>
-<div class="soon">Print edition — coming soon</div></div>
+<p class="small">The complete set with the dissertation includes works still under review or unreleased, so it is not offered as a single order yet. Order the dissertation in the First Wave Edition at the prices below, and the released papers individually, or inquire through <a href="https://cctsexa.com/#order" rel="noopener">cctsexa.com</a>.</p>
 </div>
 <div class="sets" id="corpus-set-diss">
 <h3 class="group">The dissertation set</h3>
-<p>16 volumes, 6,409 pages — the verified CCT/SEXA print edition of 23 November 2026. These are suggested catalog list prices at 8.5 × 11 in, the trim of that edition.</p>
-<div class="price"><h3>Dissertation set, softbound</h3>
-<p class="d">16 volumes, 6,409 pages, paperback</p>
-<div class="row"><span>Boxed set (10% off)</span><b>$639.99</b></div>
-<div class="row"><span>Sum of list prices</span><span class="lp">$710.84</span></div>
-<div class="row"><span>Full-color edition, boxed (10% off)</span><span class="lp">$898.99</span></div>
-<div class="row"><span>Full-color edition, sum</span><span class="lp">$998.84</span></div>
-<div class="soon">Print edition — coming soon</div></div>
-<div class="price"><h3>Dissertation set, hardbound</h3>
-<p class="d">16 volumes, 6,409 pages, case-laminate hardcover</p>
-<div class="row"><span>Boxed set (10% off)</span><b>$958.99</b></div>
-<div class="row"><span>Sum of list prices</span><span class="lp">$1,064.84</span></div>
-<div class="row"><span>Full-color edition, boxed (10% off)</span><span class="lp">$1,215.99</span></div>
-<div class="row"><span>Full-color edition, sum</span><span class="lp">$1,350.84</span></div>
-<div class="soon">Print edition — coming soon</div></div>
+<figure class="fw-fig"><picture><source type="image/webp" srcset="assets/cctsexa-fw/diss_set_lit-800.webp 800w, assets/cctsexa-fw/diss_set_lit-1600.webp 1600w, assets/cctsexa-fw/diss_set_lit-2400.webp 2400w" sizes="(min-width:820px) 820px, 100vw"><img src="assets/cctsexa-fw/diss_set_lit-1600.jpg" width="1600" height="800" style="aspect-ratio:1600/800" alt="The sixteen collector’s hardcover volumes of the CCT/SEXA First Wave Edition, gold-embossed, standing in a row, every spine emblem lit" loading="lazy" decoding="async"></picture><figcaption>The sixteen-volume collector’s hardcover set, Books I–XIV</figcaption></figure>
+<p>16 volumes, 6,409 pages: the verified CCT/SEXA print edition of 23 November 2026, in the First Wave Edition, printed to order. The PDF of every volume is free to download.</p>
+<aside class="enc compact" aria-label="Ninth-dimensional encryption"><p class="enc-k">Ninth-Dimensional Encryption</p><p class="enc-l">Every book, in every edition, is 9th-dimensionally encrypted and stored in the ninth dimension, forever, for each reader.</p><span class="enc-r" aria-hidden="true"></span></aside>
+<div class="price"><h3>Hardcover set</h3><p class="d">16 volumes, case-laminate hardcover</p>
+<div class="row"><span>First Wave, direct</span><b>$1,495</b></div></div>
+<div class="price"><h3>Collector’s edition</h3><p class="d">Numbered 1–100 and signed; hand-bound in cloth or leather, embossed lettering, metal-inlay U.F.S. emblem</p>
+<div class="row"><span>First Wave, direct</span><b>$14,950</b></div></div>
+<div class="price"><h3>Softcover set</h3><p class="d">16 volumes, paperback</p>
+<div class="row"><span>First Wave, direct</span><b>$849</b></div></div>
+<p class="small">Shipping and tax extra. Every order is confirmed by invoice.</p>
+<p><a class="cta" href="https://cctsexa.com/#order" rel="noopener">Order the dissertation set</a></p>
 </div>
 <p><a class="cta alt" href="mailto:jered@unifiedfieldsystems.com?cc=Liat@UnifiedFieldSystems.com,spacetimemanhattan@gmail.com&amp;subject=SEXA%20Corpus%20print%20edition%20inquiry&amp;body=Hello%20U.F.S.%2C%0A%0AI%20would%20like%20to%20inquire%20about%20the%20SEXA%20Corpus%20print%20edition.%0A%0ASet%20or%20book%3A%20%0ABinding%20%28softbound%20/%20hardbound%3B%20black-and-white%20or%20full-color%29%3A%20%0A%0AName%3A%20%0A%0AThank%20you%2C%0A">Inquire about the print edition</a></p>
 <p class="small" style="text-align:center">Opens an email to U.F.S. Nothing is charged from this page.</p>
@@ -602,7 +599,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$126.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W001_THE-SEXA-CRITICAL-LINE-CLOSURE-THEOREM-Recursive_Vol-A_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W001_THE-SEXA-CRITICAL-LINE-CLOSURE-THEOREM-Recursive_Vol-A_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W001-B">
 <figure>
@@ -622,7 +619,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$126.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W001_THE-SEXA-CRITICAL-LINE-CLOSURE-THEOREM-Recursive_Vol-B_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W001_THE-SEXA-CRITICAL-LINE-CLOSURE-THEOREM-Recursive_Vol-B_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W002">
 <figure>
@@ -642,7 +639,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$41.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W002_Recursive-Interdomain-Computational-Omni-Logic-e_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W002_Recursive-Interdomain-Computational-Omni-Logic-e_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W003">
 <figure>
@@ -662,7 +659,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W003_One-Test-Every-Theory-of-Everything-Must-Pass-Un_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W003_One-Test-Every-Theory-of-Everything-Must-Pass-Un_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W004">
 <figure>
@@ -682,7 +679,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W004_HEXAD-Intercept-Symmetry-Telemetry-under-RICOLMC_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W004_HEXAD-Intercept-Symmetry-Telemetry-under-RICOLMC_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W005-A">
 <figure>
@@ -702,7 +699,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$126.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W005_THE-SEXA-BABY-MOMMA-TERMINAL-INVARIANCE-PORTAL-T_Vol-A_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W005_THE-SEXA-BABY-MOMMA-TERMINAL-INVARIANCE-PORTAL-T_Vol-A_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W005-B">
 <figure>
@@ -722,7 +719,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$126.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W005_THE-SEXA-BABY-MOMMA-TERMINAL-INVARIANCE-PORTAL-T_Vol-B_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W005_THE-SEXA-BABY-MOMMA-TERMINAL-INVARIANCE-PORTAL-T_Vol-B_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W006">
 <figure>
@@ -742,7 +739,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$34.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W006_SEXA-Math-as-a-Hilbert-Space-Admissibility-Gates_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W006_SEXA-Math-as-a-Hilbert-Space-Admissibility-Gates_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W007">
 <figure>
@@ -762,7 +759,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W007_Recursive-Soil-Bearing-Architecture-RSBA-Synthet_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W007_Recursive-Soil-Bearing-Architecture-RSBA-Synthet_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W008">
 <figure>
@@ -782,7 +779,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W008_A-Monster-Symmetric-Admissibility-Formulation-of_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W008_A-Monster-Symmetric-Admissibility-Formulation-of_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W009">
 <figure>
@@ -802,7 +799,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$31.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W009_From-Admissibility-to-Energy-A-Full-Stack-Formul_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W009_From-Admissibility-to-Energy-A-Full-Stack-Formul_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W010">
 <figure>
@@ -822,7 +819,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$36.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W010_The-Horizon-Constant-and-Resolution-Paradox-Recu_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W010_The-Horizon-Constant-and-Resolution-Paradox-Recu_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W011">
 <figure>
@@ -843,7 +840,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$36.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W011_A-Recursive-Closure-Criterion-for-a-Theory-of-Ev_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W011_A-Recursive-Closure-Criterion-for-a-Theory-of-Ev_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W012">
 <figure>
@@ -863,7 +860,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W012_Hardware-Verifiable-Recursive-Computational-Arch_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W012_Hardware-Verifiable-Recursive-Computational-Arch_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W013">
 <figure>
@@ -883,7 +880,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W013_A-Nine-Dimensional-Recursive-Admissibility-Energ_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W013_A-Nine-Dimensional-Recursive-Admissibility-Energ_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W015">
 <figure>
@@ -903,7 +900,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W015_Hardware-Verifiable-Recursive-Admissibility-for_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W015_Hardware-Verifiable-Recursive-Admissibility-for_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W018">
 <figure>
@@ -923,7 +920,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W018_Hardware-Verifiable-Recursive-Admissibility-for_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W018_Hardware-Verifiable-Recursive-Admissibility-for_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W021">
 <figure>
@@ -943,7 +940,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W021_A-Dimensional-Cascade-Model-of-Gravity-in-the-SE_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W021_A-Dimensional-Cascade-Model-of-Gravity-in-the-SE_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W024">
 <figure>
@@ -964,7 +961,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$39.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W024_The-Subthreshold-Fold-Logic-Theorem-Minimal-Admi_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W024_The-Subthreshold-Fold-Logic-Theorem-Minimal-Admi_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W039">
 <figure>
@@ -985,7 +982,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$36.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W039_Unified-Recursive-Manifold-Dynamics-Dimensional_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W039_Unified-Recursive-Manifold-Dynamics-Dimensional_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W042">
 <figure>
@@ -1006,7 +1003,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$35.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W042_The-Last-Constant-A-Theorem-Grade-Formalization_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W042_The-Last-Constant-A-Theorem-Grade-Formalization_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W044">
 <figure>
@@ -1027,7 +1024,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W044_The-AMN-Authority-Tensor-Quaternionic-Admissibil_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W044_The-AMN-Authority-Tensor-Quaternionic-Admissibil_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W045">
 <figure>
@@ -1048,7 +1045,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$34.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W045_Anti-Direct-Short-A-Negentropic-Circuit-Topology_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W045_Anti-Direct-Short-A-Negentropic-Circuit-Topology_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W046">
 <figure>
@@ -1069,7 +1066,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W046_Joey-Rubin-s-Kinetic-Blueprinting-the-1-D-Visibi_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W046_Joey-Rubin-s-Kinetic-Blueprinting-the-1-D-Visibi_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W047">
 <figure>
@@ -1090,7 +1087,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$31.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W047_Artificial-Rest-A-High-Dimensional-Restorative-R_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W047_Artificial-Rest-A-High-Dimensional-Restorative-R_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W048">
 <figure>
@@ -1111,7 +1108,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$33.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W048_Lightning-as-a-Quantum-Vacuum-Plasma-Fracture-Ra_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W048_Lightning-as-a-Quantum-Vacuum-Plasma-Fracture-Ra_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W049">
 <figure>
@@ -1132,7 +1129,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W049_SEXA-An-Axiomatic-Closure-Framework-for-Recursiv_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W049_SEXA-An-Axiomatic-Closure-Framework-for-Recursiv_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W055">
 <figure>
@@ -1152,7 +1149,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$38.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W055_Extended-Technical-Companion-to-Hardware-Verifia_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W055_Extended-Technical-Companion-to-Hardware-Verifia_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W056">
 <figure>
@@ -1172,7 +1169,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$31.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W056_A-Recursive-Dimensional-Cascade-Model-of-Gravity_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W056_A-Recursive-Dimensional-Cascade-Model-of-Gravity_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W058">
 <figure>
@@ -1192,7 +1189,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W058_Monstrous-Moonshine-and-Monster-Symmetric-Admiss_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W058_Monstrous-Moonshine-and-Monster-Symmetric-Admiss_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W061">
 <figure>
@@ -1212,7 +1209,7 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$30.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W061_Addendum-to-Book-IV-Upgrading-the-Quaternionic-A_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W061_Addendum-to-Book-IV-Upgrading-the-Quaternionic-A_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <article class="cbook" id="corpus-W069">
 <figure>
@@ -1233,329 +1230,250 @@ footer .fl{font:400 0.95rem/1.4 var(--serif);color:var(--mut);margin:0 0 8px;let
 <tr><th scope="row">Full-color edition, hardbound</th><td>$35.99</td></tr>
 </tbody></table>
 <p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W069_SEXA-Unified-Field-Theory-The-Structured-Surviva_book_with_cover.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/sexa-corpus-sealed/releases/download/sealed-4pct-2026-11-23/W069_SEXA-Unified-Field-Theory-The-Structured-Surviva_book_with_cover.pdf" download>Download the sealed PDF, free</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <h3 class="group" id="corpus-diss-books">Each dissertation volume</h3>
-<p class="small">Covers are taken from the verified print edition, as received. Book I is by Jered McClain. The set DOI is 10.17605/OSF.IO/5AT2W. List prices only.</p>
-<article class="cbook" id="corpus-W025">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W025.webp">
-<img class="cover" src="assets/corpus/covers/W025.jpg" width="1391" height="1800" alt="Front cover of Book I: CCT/SEXA Book I — The Master Theorem of the CCT-SEXA Unified Field" decoding="async" loading="lazy">
-</picture>
-</figure>
+<p class="small">Each volume shown as the First Wave collector’s hardcover, with its gold-embossed board and lit U.F.S. emblem. By Jered McClain. The set DOI is 10.17605/OSF.IO/5AT2W. First Wave Edition prices; every PDF is free to download.</p>
+<aside class="enc compact" aria-label="Ninth-dimensional encryption"><p class="enc-k">Ninth-Dimensional Encryption</p><p class="enc-l">Every book, in every edition, is 9th-dimensionally encrypted and stored in the ninth dimension, forever, for each reader.</p><span class="enc-r" aria-hidden="true"></span></aside>
+<article class="cbook fw" id="corpus-W025">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-01-780.webp" srcset="assets/cctsexa-fw/vol-01-390.webp 390w, assets/cctsexa-fw/vol-01-780.webp 780w, assets/cctsexa-fw/vol-01-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book I of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book I</p>
 <h3>CCT/SEXA Book I — The Master Theorem of the CCT-SEXA Unified Field</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">161 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$21.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$43.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$28.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$50.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$99</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$990</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$59</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_01_I_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_01_I_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W026">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W026.webp">
-<img class="cover" src="assets/corpus/covers/W026.jpg" width="1391" height="1800" alt="Front cover of Book II: CCT/SEXA Book II — The CCT-SEXA Unified Field Framework" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W026">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-02-780.webp" srcset="assets/cctsexa-fw/vol-02-390.webp 390w, assets/cctsexa-fw/vol-02-780.webp 780w, assets/cctsexa-fw/vol-02-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book II of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book II</p>
 <h3>CCT/SEXA Book II — The CCT-SEXA Unified Field Framework</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">179 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$22.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$44.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$30.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$52.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$99</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$990</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$59</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_02_II_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_02_II_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W027">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W027.webp">
-<img class="cover" src="assets/corpus/covers/W027.jpg" width="1391" height="1800" alt="Front cover of Book III: CCT/SEXA Book III — Gamma-Subthreshold Fold Logic" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W027">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-03-780.webp" srcset="assets/cctsexa-fw/vol-03-390.webp 390w, assets/cctsexa-fw/vol-03-780.webp 780w, assets/cctsexa-fw/vol-03-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book III of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book III</p>
 <h3>CCT/SEXA Book III — Gamma-Subthreshold Fold Logic</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">304 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$34.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$56.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$48.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$70.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$119</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,190</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$69</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_03_III_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_03_III_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W028">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W028.webp">
-<img class="cover" src="assets/corpus/covers/W028.jpg" width="1391" height="1800" alt="Front cover of Book IV: CCT/SEXA Book IV — The Quaternionic Architecture of Recursive Computation" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W028">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-04-780.webp" srcset="assets/cctsexa-fw/vol-04-390.webp 390w, assets/cctsexa-fw/vol-04-780.webp 780w, assets/cctsexa-fw/vol-04-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book IV of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book IV</p>
 <h3>CCT/SEXA Book IV — The Quaternionic Architecture of Recursive Computation</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">518 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$55.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$77.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$78.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$100.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$149</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,490</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$89</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_04_IV_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_04_IV_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W029">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W029.webp">
-<img class="cover" src="assets/corpus/covers/W029.jpg" width="1391" height="1800" alt="Front cover of Book V: CCT/SEXA Book V — Spectral Architecture of Recursive Computation" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W029">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-05-780.webp" srcset="assets/cctsexa-fw/vol-05-390.webp 390w, assets/cctsexa-fw/vol-05-780.webp 780w, assets/cctsexa-fw/vol-05-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book V of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book V</p>
 <h3>CCT/SEXA Book V — Spectral Architecture of Recursive Computation</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">227 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$27.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$49.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$37.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$59.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$99</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$990</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$59</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_05_V_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_05_V_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W030">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W030.webp">
-<img class="cover" src="assets/corpus/covers/W030.jpg" width="1391" height="1800" alt="Front cover of Book VI: CCT/SEXA Book VI — Higher-Order Recursive Operator Architectures" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W030">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-06-780.webp" srcset="assets/cctsexa-fw/vol-06-390.webp 390w, assets/cctsexa-fw/vol-06-780.webp 780w, assets/cctsexa-fw/vol-06-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book VI of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book VI</p>
 <h3>CCT/SEXA Book VI — Higher-Order Recursive Operator Architectures</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">337 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$37.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$59.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$52.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$74.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$119</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,190</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$69</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_06_VI_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_06_VI_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W031">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W031.webp">
-<img class="cover" src="assets/corpus/covers/W031.jpg" width="1391" height="1800" alt="Front cover of Book VII: CCT/SEXA Book VII — Recursive Computational Universes" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W031">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-07-780.webp" srcset="assets/cctsexa-fw/vol-07-390.webp 390w, assets/cctsexa-fw/vol-07-780.webp 780w, assets/cctsexa-fw/vol-07-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book VII of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book VII</p>
 <h3>CCT/SEXA Book VII — Recursive Computational Universes</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">537 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$57.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$79.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$81.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$103.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$149</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,490</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$89</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_07_VII_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_07_VII_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W032">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W032.webp">
-<img class="cover" src="assets/corpus/covers/W032.jpg" width="1391" height="1800" alt="Front cover of Book VIII: CCT/SEXA Book VIII — Recursive Meta-Cosmological Architectures" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W032">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-08-780.webp" srcset="assets/cctsexa-fw/vol-08-390.webp 390w, assets/cctsexa-fw/vol-08-780.webp 780w, assets/cctsexa-fw/vol-08-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book VIII of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book VIII</p>
 <h3>CCT/SEXA Book VIII — Recursive Meta-Cosmological Architectures</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">681 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$71.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$93.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$101.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$123.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$179</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,790</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$99</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_08_VIII_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_08_VIII_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W033-A">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W033-A.webp">
-<img class="cover" src="assets/corpus/covers/W033-A.jpg" width="1391" height="1800" alt="Front cover of Book IX-A: CCT/SEXA Book IX — Recursive Hyper-Cosmological Architectures — Volume A" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W033-A">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-09a-780.webp" srcset="assets/cctsexa-fw/vol-09a-390.webp 390w, assets/cctsexa-fw/vol-09a-780.webp 780w, assets/cctsexa-fw/vol-09a-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book IX-A of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book IX-A</p>
 <h3>CCT/SEXA Book IX — Recursive Hyper-Cosmological Architectures — Volume A</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">575 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$60.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$82.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$86.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$108.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$149</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,490</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$89</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_09A_IX-A_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_09A_IX-A_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W033-B">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W033-B.webp">
-<img class="cover" src="assets/corpus/covers/W033-B.jpg" width="1391" height="1800" alt="Front cover of Book IX-B: CCT/SEXA Book IX — Recursive Hyper-Cosmological Architectures — Volume B" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W033-B">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-09b-780.webp" srcset="assets/cctsexa-fw/vol-09b-390.webp 390w, assets/cctsexa-fw/vol-09b-780.webp 780w, assets/cctsexa-fw/vol-09b-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book IX-B of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book IX-B</p>
 <h3>CCT/SEXA Book IX — Recursive Hyper-Cosmological Architectures — Volume B</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">564 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$59.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$81.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$84.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$106.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$149</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,490</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$89</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_09B_IX-B_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_09B_IX-B_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W034">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W034.webp">
-<img class="cover" src="assets/corpus/covers/W034.jpg" width="1391" height="1800" alt="Front cover of Book X: CCT/SEXA Book X — Recursive Civilizational Architectures" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W034">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-10-780.webp" srcset="assets/cctsexa-fw/vol-10-390.webp 390w, assets/cctsexa-fw/vol-10-780.webp 780w, assets/cctsexa-fw/vol-10-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book X of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book X</p>
 <h3>CCT/SEXA Book X — Recursive Civilizational Architectures</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">313 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$35.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$57.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$49.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$71.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$119</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,190</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$69</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_10_X_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_10_X_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W035">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W035.webp">
-<img class="cover" src="assets/corpus/covers/W035.jpg" width="1391" height="1800" alt="Front cover of Book XI: CCT/SEXA Book XI — Recursive Interstellar Architectures" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W035">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-11-780.webp" srcset="assets/cctsexa-fw/vol-11-390.webp 390w, assets/cctsexa-fw/vol-11-780.webp 780w, assets/cctsexa-fw/vol-11-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book XI of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book XI</p>
 <h3>CCT/SEXA Book XI — Recursive Interstellar Architectures</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">333 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$37.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$59.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$52.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$74.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$119</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,190</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$69</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_11_XI_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_11_XI_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W036">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W036.webp">
-<img class="cover" src="assets/corpus/covers/W036.jpg" width="1391" height="1800" alt="Front cover of Book XII: CCT/SEXA Book XII — Recursive Galactic Civilizations" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W036">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-12-780.webp" srcset="assets/cctsexa-fw/vol-12-390.webp 390w, assets/cctsexa-fw/vol-12-780.webp 780w, assets/cctsexa-fw/vol-12-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book XII of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book XII</p>
 <h3>CCT/SEXA Book XII — Recursive Galactic Civilizations</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">304 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$34.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$56.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$48.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$70.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$119</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,190</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$69</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_12_XII_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_12_XII_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W037">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W037.webp">
-<img class="cover" src="assets/corpus/covers/W037.jpg" width="1391" height="1800" alt="Front cover of Book XIII: CCT/SEXA Book XIII — Recursive Intergalactic Civilizations" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W037">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-13-780.webp" srcset="assets/cctsexa-fw/vol-13-390.webp 390w, assets/cctsexa-fw/vol-13-780.webp 780w, assets/cctsexa-fw/vol-13-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book XIII of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book XIII</p>
 <h3>CCT/SEXA Book XIII — Recursive Intergalactic Civilizations</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">276 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$31.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$54.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$44.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$66.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$119</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,190</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$69</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_13_XIII_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_13_XIII_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W038-A">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W038-A.webp">
-<img class="cover" src="assets/corpus/covers/W038-A.jpg" width="1391" height="1800" alt="Front cover of Book XIV-A: CCT/SEXA Book XIV — The Universal Recursive Closure — Volume A" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W038-A">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-14a-780.webp" srcset="assets/cctsexa-fw/vol-14a-390.webp 390w, assets/cctsexa-fw/vol-14a-780.webp 780w, assets/cctsexa-fw/vol-14a-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book XIV-A of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book XIV-A</p>
 <h3>CCT/SEXA Book XIV — The Universal Recursive Closure — Volume A</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">554 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$58.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$80.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$83.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$105.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$149</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,490</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$89</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_14A_XIV-A_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_14A_XIV-A_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
-<article class="cbook" id="corpus-W038-B">
-<figure>
-<picture>
-<source type="image/webp" srcset="assets/corpus/covers/W038-B.webp">
-<img class="cover" src="assets/corpus/covers/W038-B.jpg" width="1391" height="1800" alt="Front cover of Book XIV-B: CCT/SEXA Book XIV — The Universal Recursive Closure — Volume B" decoding="async" loading="lazy">
-</picture>
-</figure>
+<article class="cbook fw" id="corpus-W038-B">
+<figure><img class="cover" src="assets/cctsexa-fw/vol-14b-780.webp" srcset="assets/cctsexa-fw/vol-14b-390.webp 390w, assets/cctsexa-fw/vol-14b-780.webp 780w, assets/cctsexa-fw/vol-14b-900.webp 900w" sizes="(min-width:600px) 440px, 100vw" width="900" height="1224" loading="lazy" decoding="async" alt="Book XIV-B of the CCT/SEXA dissertation as the collector’s hardcover with gold-embossed lettering and its U.F.S. emblem lit"></figure>
 <p class="wid">Book XIV-B</p>
 <h3>CCT/SEXA Book XIV — The Universal Recursive Closure — Volume B</h3>
 <p class="by">Jered McClain</p>
 <p class="meta">546 pages · DOI <a href="https://doi.org/10.17605/OSF.IO/5AT2W" rel="noopener">10.17605/OSF.IO/5AT2W</a></p>
 <table class="plist"><tbody>
-<tr><th scope="row">Softbound</th><td>$57.99</td></tr>
-<tr><th scope="row">Hardbound</th><td>$80.99</td></tr>
-<tr><th scope="row">Full-color edition, softbound</th><td>$82.99</td></tr>
-<tr><th scope="row">Full-color edition, hardbound</th><td>$104.99</td></tr>
+<tr><th scope="row">Hardcover, First Wave</th><td>$149</td></tr>
+<tr><th scope="row">Collector’s, First Wave</th><td>$1,490</td></tr>
+<tr class="pf"><th scope="row">PDF</th><td>Free to download</td></tr>
+<tr><th scope="row">Softcover, First Wave</th><td>$89</td></tr>
 </tbody></table>
-<p class="coming">Print edition — coming soon</p>
-<p class="sealed-pdf"><a href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_14B_XIV-B_print.pdf" download>Download the sealed PDF</a> · U.F.S. seal · DOI seal · Oblivion Mark</p>
+<p class="acts"><a class="dl" href="https://github.com/SpaceTimeManhattan/cctsexa-com/releases/download/verified-edition-2026-11-23/CCT-SEXA_Book_14B_XIV-B_print.pdf" download>Download the sealed PDF, free</a><a class="or" href="https://cctsexa.com/#order" rel="noopener">Order the book</a></p>
+<p class="sealed-pdf">U.F.S. seal · DOI seal · Oblivion Mark</p>
 </article>
 <p><a class="cta alt" href="mailto:jered@unifiedfieldsystems.com?cc=Liat@UnifiedFieldSystems.com,spacetimemanhattan@gmail.com&amp;subject=SEXA%20Corpus%20print%20edition%20inquiry&amp;body=Hello%20U.F.S.%2C%0A%0AI%20would%20like%20to%20inquire%20about%20the%20SEXA%20Corpus%20print%20edition.%0A%0ASet%20or%20book%3A%20%0ABinding%20%28softbound%20/%20hardbound%3B%20black-and-white%20or%20full-color%29%3A%20%0A%0AName%3A%20%0A%0AThank%20you%2C%0A">Inquire about the print edition</a></p>
 </div>
